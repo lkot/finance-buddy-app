@@ -1,11 +1,13 @@
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
-  return (
-    <div>
-      This is initial markup.
-    </div>
-  );
+	return (
+		<div>
+			<Header></Header>
+		</div>
+	);
 }
 
 export default App;
