@@ -2,6 +2,7 @@ import React, { createContext, useReducer } from 'react';
 
 // Initial state
 const initialState = {
+    // 'Dummy data'
 	transactions: [
 		{ id: 1, text: 'Flower', amount: -20 },
 		{ id: 2, text: 'Salary', amount: 300 },
@@ -9,3 +10,11 @@ const initialState = {
 		{ id: 4, text: 'Camera', amount: 150 },
 	],
 };
+
+// Create context
+export const GlobalContext = createContext(initialState);
+
+// Provider component
+export const GlobalProvider = ({ children }) => {
+	
+}
