@@ -6,6 +6,7 @@ function Balance() {
 
 	// Calculating total balance.
 	const amounts = transactions.map((transaction) => transaction.amount);
+	console.log(amounts);
 
 	const total = amounts.reduce((acc, item) => (acc += item), 0);
 
