@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/finance-buddy-app/static/css/main.f851098b.css",
+    "main.js": "/finance-buddy-app/static/js/main.66229bae.js",
+    "index.html": "/finance-buddy-app/index.html",
+    "main.f851098b.css.map": "/finance-buddy-app/static/css/main.f851098b.css.map",
+    "main.66229bae.js.map": "/finance-buddy-app/static/js/main.66229bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f851098b.css",
+    "static/js/main.66229bae.js"
+  ]
+}
